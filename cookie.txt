@@ -1,2 +1,0 @@
-cookie_facebook_devtools = sb=z9V2XhKzlwWeRDOyfdj9TmkG; datr=syB4Xjdy3rnpiarSPCjfXP0Z; dpr=1.25; c_user=100049274942399; _fbp=fb.1.1603308280982.2099326038; spin=r.1002879852_b.trunk_t.1603563221_s.1_v.2_; xs=46%3A1WhjZj6N_80aAw%3A2%3A1601304664%3A5175%3A9658%3A%3AAcUg3HN-i5Atrqs3GLxb88E_nXf9FTPenMRpCApO1NE; fr=07joPAZT3ItlMIIz4.AWWt7rJiJjmYjNDE2XuUFoFkAfM.Bffunn.5Q.F-U.0.0.BflRwl.AWU-5ZhdKxg; wd=622x698
-
