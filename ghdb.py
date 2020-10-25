@@ -186,7 +186,7 @@ def read_write_all_ghdb(file_name_ghdb, perdomain, outputfile):
 			per_data = line.split("   ")
 			dorking_text = per_data[2]
 			dorking_category = per_data[4]
-			print(prPurple("[Procress "+str(format((cnt/line_count)*100, ".2f"))+"%]")+"   ")
+			print(prPurple("[Process "+str(format((cnt/line_count)*100, ".2f"))+"%]")+"   ")
 			for persearch in google(parse_cookie(file_name_cookie)['facebook_devtools'],"site:"+perdomain+" "+dorking_text,1000):
 				this_output_print = prGreen("[")+prGreen(dorking_category)+prGreen("]   ")+dorking_text+"   "+prYellow(persearch['url'])+"   "+"detail_ghdb_info:["+listToString(per_data).strip("\n")+"]"
 				print(this_output_print)
