@@ -40,7 +40,7 @@ Run the python script
 ## Copy Facebook Developer Tools Token to Cookie.txt
 open [Facebook Developers Tools](https://developers.facebook.com/tools/) in browser and press Ctrl+i or Ctrl+Shift+i
 ![enter image description here](https://i.ibb.co/zPjp4WT/cookie.png)
-after that got to cokie.txt and paste that cookie to string text paste_here_without_enter
+then open cookie.txt and paste Facebook Developers Tools Cookie to string text paste_here_without_enter
 
 ## Update Database
 Run again python script
