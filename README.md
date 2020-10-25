@@ -3,7 +3,7 @@
 # Intermezo
 
 
-A few moments ago I was mentored by Mr. Digit about Cyber Threat Methods, on that opportunity I was told about Google Dorking. He inspired me to create a tool that can automatically check web vulnerabilities by leveraging the Google Hacking Database from Exploit-DB. This tool also can be used as early warning system based on Google Hacking Database [Exploid-DB] for our system. Once again I am very grateful about sharing experiences together.
+A few moments ago I was mentored by Mr. Digit about Cyber Threat Methods, on that opportunity I was told about Google Dorking. He inspired me to create a tools that can automatically check web vulnerabilities by leveraging the Google Hacking Database from Exploit-DB. This tools also can be used as early warning system based on Google Hacking Database [Exploid-DB] for our system. Once again I am very grateful about sharing experiences together.
 
 ## Methods
 
