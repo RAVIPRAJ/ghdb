@@ -21,7 +21,7 @@ The techniques used in this tool are as follows:
 
 # Installation
 
-## Running Script
+## 1.Running Script
 
     git clone https://github.com/nalonal/ghdb.git
     cd ghdb
@@ -30,19 +30,19 @@ The techniques used in this tool are as follows:
 
 
 
-## Create Token File
+## 2.Create Token File
 Run the python script
 
     python ghdb.py
 
 ![create token file](https://i.ibb.co/0c3q2LF/createfile.png)
 
-## Copy Facebook Developer Tools Token to Cookie.txt
+## 3.Copy Facebook Developer Tools Token to Cookie.txt
 open [Facebook Developers Tools](https://developers.facebook.com/tools/) in browser and press Ctrl+i or Ctrl+Shift+i
 ![enter image description here](https://i.ibb.co/zPjp4WT/cookie.png)
 then open cookie.txt and paste Facebook Developers Tools Cookie to string text paste_here_without_enter
 
-## Update Database
+## 4.Update Database
 Run again python script
 
     python ghdb.py
@@ -50,7 +50,7 @@ Run again python script
 After update cookie success then system will update GHDB and produce ghdb.txt it will take about 1-2 minute
 ![enter image description here](https://i.ibb.co/kMMWr8G/update-ghdb.png)
 
-## Running File
+## 5.Running File
 
 Running help
 
