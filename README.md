@@ -1,6 +1,6 @@
 ![GHDB ICON](https://i.ibb.co/dtn1Lfd/Webp-net-resizeimage-1.png)
 
-# Intermezzo
+# Intermezo
 
 
 A few months ago I was mentored by Mr. Digit about Cyber Threat Methods, on that opportunity I was told about Google Dorking. He inspired me to create a tool that can automatically check web vulnerabilities by leveraging the Google Hacking Database from Exploit-DB. This tool can be used by either the Red Team or the Blue Team depending on the usage requirements. Once again I am very grateful about sharing experiences together.
@@ -28,7 +28,13 @@ The techniques used in this tool are as follows:
     pip install -r requirements.txt
     python ghdb.py
 
+
+
 ## Create Token File
+Run the python script
+
+    python ghdb.py
+
 ![create token file](https://i.ibb.co/0c3q2LF/createfile.png)
 
 ## Copy Facebook Developer Tools Token to Cookie.txt
@@ -37,6 +43,9 @@ open [Facebook Developers Tools](https://developers.facebook.com/tools/) in brow
 after that got to cokie.txt and paste that cookie to string text paste_here_without_enter
 
 ## Update Database
+Run again python script
+
+    python ghdb.py
 
 After update cookie success then system will update GHDB and produce ghdb.txt it will take about 1-2 minute
 ![enter image description here](https://i.ibb.co/kMMWr8G/update-ghdb.png)
