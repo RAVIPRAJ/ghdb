@@ -1,6 +1,6 @@
 ![GHDB ICON](https://i.ibb.co/dtn1Lfd/Webp-net-resizeimage-1.png)
 
-# Intermezo
+# Intermezzo
 
 
 A few months ago I was mentored by Mr. Digit about Cyber Threat Methods, on that opportunity I was told about Google Dorking. He inspired me to create a tool that can automatically check web vulnerabilities by leveraging the Google Hacking Database from Exploit-DB. This tool can be used by either the Red Team or the Blue Team depending on the usage requirements. Once again I am very grateful about sharing experiences together.
@@ -27,8 +27,6 @@ The techniques used in this tool are as follows:
     cd ghdb
     pip install -r requirements.txt
     python ghdb.py
-
-
 
 ## Create Token File
 ![create token file](https://i.ibb.co/0c3q2LF/createfile.png)
