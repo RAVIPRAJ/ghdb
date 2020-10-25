@@ -16,12 +16,13 @@ The techniques used in this tool are as follows:
 
 ## Requirements
 - Python > 3.6
+- I try this tools in Windows OS.
 
 
 
 # Installation
 
-## 1.Running Script
+## 1.Clone and Install Requirements
 
     git clone https://github.com/nalonal/ghdb.git
     cd ghdb
@@ -30,7 +31,7 @@ The techniques used in this tool are as follows:
 
 
 
-## 2.Create Token File
+## 2.Running Script to Create Cookie.txt File
 Run the python script
 
     python ghdb.py
@@ -40,9 +41,9 @@ Run the python script
 ## 3.Copy Facebook Developer Tools Token to Cookie.txt
 open [Facebook Developers Tools](https://developers.facebook.com/tools/) in browser and press Ctrl+i or Ctrl+Shift+i
 ![enter image description here](https://i.ibb.co/zPjp4WT/cookie.png)
-then open cookie.txt and paste Facebook Developers Tools Cookie to string text paste_here_without_enter
+Open file cookie.txt and paste Facebook Developers Tools Cookie to string text paste_here_without_enter
 
-## 4.Update Database
+## 4.Create ghbdb.txt Database and Update Google Hacking Database from Exploit
 Run again python script
 
     python ghdb.py
