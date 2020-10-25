@@ -3,7 +3,7 @@
 # Intermezo
 
 
-A few months ago I was mentored by Mr. Digit about Cyber Threat Methods, on that opportunity I was told about Google Dorking. He inspired me to create a tool that can automatically check web vulnerabilities by leveraging the Google Hacking Database from Exploit-DB. This tool can be used by either the Red Team or the Blue Team depending on the usage requirements. Once again I am very grateful about sharing experiences together.
+A few moments ago I was mentored by Mr. Digit about Cyber Threat Methods, on that opportunity I was told about Google Dorking. He inspired me to create a tool that can automatically check web vulnerabilities by leveraging the Google Hacking Database from Exploit-DB. This tool can be used by either the Red Team or the Blue Team depending on the usage requirements. Once again I am very grateful about sharing experiences together.
 
 ## Methods
 
