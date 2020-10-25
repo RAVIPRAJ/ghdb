@@ -124,7 +124,7 @@ def crawler():
 def check_registration():
 	welcome()
 	if os.path.exists(file_name_cookie) == False:
-		print("File manager for cookie https://www.exploit-db.com/google-hacking-database and https://developers.facebook.com/tools not exist")
+		print("File manager for cookie https://developers.facebook.com/tools not exist")
 		input_update = input("please create file and paste the cookie(y/n):")
 		if(input_update == 'y'):
 			create_token(file_name_cookie)
@@ -153,7 +153,7 @@ def help():
 	welcome()
 	print("\nHow to use this tools:")
 	print ("   "+file_name_running+" -d <domain or list domain separate using ','>")
-	print ("   "+file_name_running+' -d <domain or list domain separate using ','> -o <outputfile>')
+	print ("   "+file_name_running+" -d <domain or list domain separate using ','> -o <outputfile>")
 
 
 def read_all_ghdb(file_name_ghdb, perdomain):
