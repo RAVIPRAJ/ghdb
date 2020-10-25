@@ -27,7 +27,6 @@ The techniques used in this tool are as follows:
     git clone https://github.com/nalonal/ghdb.git
     cd ghdb
     pip install -r requirements.txt
-    python ghdb.py
 
 
 
