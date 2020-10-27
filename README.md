@@ -5,6 +5,12 @@
 
 A few moments ago I was mentored by Mr. Digit about Cyber Threat Methods, on that opportunity I was told about Google Dorking. He inspired me to create a tools that can automatically check web vulnerabilities by leveraging the Google Hacking Database from Exploit-DB. This tools also can be used as early warning system for system security based on update information from Google Hacking Database [Exploid-DB]. Once again I am very grateful about sharing experiences together.
 
+Tools preview:<br>
+<img src="https://i.ibb.co/5jyz7tH/hasil.png" width="80%"><br>
+
+After processing using Elastic and Kibana<br>
+<img src="https://i.ibb.co/pX5gtkH/ghdbgambar.png" width="80%">
+
 ## Methods
 
 The techniques used in this tool are as follows:
