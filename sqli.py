@@ -7,8 +7,8 @@ from datetime import date
 
 ##init
 file_name_cookie = "cookie.txt"
-file_name_ghdb = "ghdb.txt"
-file_name_running = "ghdb.py"
+file_name_ghdb = "sqli.txt"
+file_name_running = "sqli.py"
 
 def prRed(skk): return("\033[91m {}\033[00m" .format(skk)) 
 def prGreen(skk): return("\033[92m {}\033[00m" .format(skk)) 
@@ -139,21 +139,11 @@ def check_registration():
 		print('Sorry please copy your https://developers.facebook.com/tools cookie in '+file_name_cookie)
 		exit()
 
-	if os.path.exists(file_name_ghdb) == False:
-		input_update = input("GHDB database not exists, please update (y/n):")
-		if(input_update == 'y'):
-			crawler()
-			exit()
-		else:
-			welcome()
-			print('Sorry but this tools is useless without GHDB database')
-			exit()
-
 def help():
 	welcome()
 	print("\nHow to use this tools:")
-	print ("   "+file_name_running+" -d <domain or list domain separate using ','>")
-	print ("   "+file_name_running+" -d <domain or list domain separate using ','> -o <outputfile>")
+	print ("   "+file_name_running+" -d <domain or list domain separate using ',' or file domain using .txt extension>")
+	print ("   "+file_name_running+" -d <domain or list domain separate using ',' or file domain using .txt extension> -o <outputfile>")
 
 
 def read_all_ghdb(file_name_ghdb, perdomain):

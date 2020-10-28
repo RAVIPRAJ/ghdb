@@ -58,19 +58,46 @@ After update cookie success then system will update GHDB and produce ghdb.txt it
 
 ## 5.Running File
 
+### 5.1 Running GHDB Dorking
+
 Running help
 
     python ghdb.py -h
 
 Running GHDB but just print screen the result
 
-    ghdb.py -d <domain or list domain separate using ','>
+    ghdb.py -d <domain or list domain separate using ',' or you can use file with .txt extension>
     example: ghdb.py -d example.com
+    example: ghdb.py -d example1.com,example2.com
+    example: ghdb.py -d mylistdomain.txt
 
 Running GHDB and save the result to file
 
-    ghdb.py -d <domain or list domain separate using ','> -o <outputfile>
-    ghdb.py -d example.com -o result.txt
+    ghdb.py -d <domain or list domain separate using ',' or you can use file with .txt extension> -o <outputfile>
+    example: ghdb.py -d example.com -o result.txt
+    example: ghdb.py -d example1.com,example2.com -o result.txt
+    example: ghdb.py -d mylistdomain.txt -o result.txt
+
+### 5.2 Running SQLi Dorking
+
+Running help
+
+    python sqli.py -h
+
+Running GHDB but just print screen the result
+
+    sqli.py -d <domain or list domain separate using ',' or you can use file with .txt extension>
+    example: sqli.py -d example.com
+    example: sqli.py -d example1.com,example2.com
+    example: sqli.py -d mylistdomain.txt
+
+Running GHDB and save the result to file
+
+    sqli.py -d <domain or list domain separate using ',' or you can use file with .txt extension> -o <outputfile>
+    example: sqli.py -d example.com -o result.txt
+    example: sqli.py -d example1.com,example2.com -o result.txt
+    example: sqli.py -d mylistdomain.txt -o result.txt
+
 
 # Disclaimer
 This script is used as an early warning system based on updating information from the Google Hacking Database [Exploit-DB]. Please use it as wisely as possible
